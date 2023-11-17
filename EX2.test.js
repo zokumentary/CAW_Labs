@@ -52,4 +52,9 @@ test("chunk function returns an array of arrays of size n", () => {
   expect(result).toEqual([[1, 2], [3, 4], [5]]);
 });
 
+ test('returns an empty array when size is less than or equal to 0', () => {
+   const array = [1, 2, 3];
+   const result = chunk(array, -1);
+    expect(result).toEqual([]);
+  });
 
