@@ -1,0 +1,77 @@
+{
+  "tasks": [
+    {
+      "title": "CAW",
+      "group": 1,
+      "owner": 2,
+      "isComplete": false,
+      "description": "tp8",
+      "id": 1
+    },
+    {
+      "title": "APM",
+      "group": 1,
+      "owner": 2,
+      "isComplete": false,
+      "description": "tp6",
+      "id": 2
+    },
+    {
+      "title": "new Task",
+      "group": 3,
+      "owner": 2,
+      "isComplete": true,
+      "description": "The aim of this lab is to create a Tasklist application that allows users to view, add, modify,\nand delete tasks It should contain the following components:",
+      "id": 4
+    },
+    {
+      "title": "hello",
+      "group": 2,
+      "owner": 2,
+      "isComplete": true,
+      "description": "test",
+      "id": 5
+    },
+    {
+      "title": "hellow",
+      "group": 2,
+      "owner": 2,
+      "isComplete": false,
+      "description": "test tow",
+      "id": 6
+    },
+    {
+      "title": "dsfa",
+      "group": 5,
+      "owner": 2,
+      "isComplete": true,
+      "description": "asdfasdf",
+      "id": 7
+    }
+  ],
+  "group": [
+    {
+      "title": "study",
+      "id": 1
+    },
+    {
+      "title": "hello",
+      "id": 2
+    },
+    {
+      "title": "fsd",
+      "id": 3
+    },
+    {
+      "title": "helo",
+      "id": 5
+    }
+  ],
+  "selectedGroup": [
+    {
+      "id": 1,
+      "id_group": 3,
+      "title": "fsd"
+    }
+  ]
+}

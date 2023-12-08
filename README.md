@@ -1,6 +1,10 @@
-# learn-git
-binome :
-Zakaria Nasri 
-Zeggai Abdellah.
+# React + Vite
 
-You can find every Lab in it's own Branch
+
+# how  to use
+
+# 1 - this command is used for hosting db.json as a virtual data base
+npx json-server --watch data/db.json --port 3030 
+
+# 2 
+npm run dev
