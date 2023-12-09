@@ -1,5 +1,5 @@
 import TaskList from "./TaskList";
-import Form from "./form";
+import Form from "./Form";
 import "../App.css";
 import useFetch from "../hooks/useFetch";
 import { useState } from "react";

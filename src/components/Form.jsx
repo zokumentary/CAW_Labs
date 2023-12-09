@@ -4,31 +4,6 @@ import { useState ,useEffect} from 'react';
 import "../App.css";
 
 
-const AddElement = () => {
-    useEffect(() => {
-      // Create a new DOM element
-      const newElement = document.createElement('div');
-      newElement.textContent = 'I am a dynamically added element!';
-  
-      // Append the new element to the body
-      document.body.appendChild(newElement);
-  
-      // Clean up: remove the element when the component unmounts
-      return () => {
-        if (newElement) {
-          document.body.removeChild(newElement);
-        }
-      };
-    }, []); // The empty dependency array ensures this effect runs only once
-  
-    // Expose a function to trigger the element addition
-    const addElement = () => {
-      // This function can be called whenever you want to add the element
-      // (e.g., in response to a user action)
-    };
-  
-    return addElement;
-  };
 
 const Form = ({ addTask ,selectedGroup}) => {
     const [title, setTitle] = useState('');
@@ -41,7 +16,6 @@ const Form = ({ addTask ,selectedGroup}) => {
         // Check if title and description are not empty
         if (title.trim() === '' || description.trim() === '') {
             alert('Please enter both title and description.');
-            AddElement();
             return;
         }
         // Call the addTask function passed as a prop to add the new task
