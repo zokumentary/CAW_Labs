@@ -1,4 +1,4 @@
-import { FaFacebookF, FaPlay } from 'react-icons/fa';
+import { FaFacebookF } from 'react-icons/fa';
 import HeroImg from '../assets/dev.png';
 import { FaXTwitter } from 'react-icons/fa6';
 import { TiSocialLinkedin, TiSocialInstagram } from 'react-icons/ti';
@@ -83,15 +83,6 @@ const Home = () => {
 					<a href='/resume.pdf' download='resume.pdf' className='button'>
 						Get Resume
 					</a>
-
-					<div className='video-link'>
-						<div className='link'>
-							<a href='https://youtu.be/m4MDt7UUu1w?si=MTugFpitro7vF1t5'>
-								<FaPlay />
-							</a>
-						</div>
-						<span>Video Link</span>
-					</div>
 				</div>
 				<div className='hero-section__right'>
 					<div className='hero-section__image'>
